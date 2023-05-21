@@ -1,9 +1,10 @@
-
-
-
 html {
     font-family: 'Inter', sans-serif;
     font-size: 16px;
+    
+}
+*{
+    box-sizing: border-box;
 }
 
 p {
@@ -16,15 +17,30 @@ p {
 button {
     background-color: white;
     border-radius: 30px;
-    padding: 0px 1.5em;
-    height: 2.5em;
+    padding: 10px 20px;
     border: 2px solid black;
     font-size: 0.8em;
-    width: 8em;
+    font-weight: bold;
+    transition: all .2s ease;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+.button-purple {
+    color: #6b53f0;
+    border: 2px solid #6b53f0;    
+}
+
+.button-purple:hover {
+    background-color: #6b53f0;
+    color: white;
 }
 
 div#navbar-left img {
-    width: 8em;
+    width: 142px;
 }
 
 @media (width >= 2500px) {
